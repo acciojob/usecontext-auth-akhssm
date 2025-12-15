@@ -20,14 +20,16 @@ const Auth = () => {
   const { authenticated, toggleAuth } = useContext(AuthContext);
 
   return (
-    <div className="container">
+    <div>
       <h1>Click on the checkbox to get authenticated</h1>
 
-      <p className="status">
-        {authenticated ? "you are authenticated" : "you are not authenticated"}
+      <p className="authText">
+        {authenticated
+          ? "you are now authenticated, you can proceed"
+          : "you are not authenticated"}
       </p>
 
-      <label className="checkbox">
+      <label>
         <input
           type="checkbox"
           checked={authenticated}
