@@ -25,7 +25,7 @@ const Auth = () => {
 
       <p className="authText">
         {authenticated
-          ? "you are now authenticated, you can proceed"
+          ? "You are now authenticated, you can proceed"
           : "you are not authenticated"}
       </p>
 
