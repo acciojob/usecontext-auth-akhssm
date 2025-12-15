@@ -1,1 +1,27 @@
+body {
+  font-family: Georgia, serif;
+  padding: 30px;
+}
 
+.container {
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.status {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.checkbox {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
